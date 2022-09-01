@@ -1,0 +1,23 @@
+[33mcommit c1f5db69cb393d26f7f560626f6625be7a478f9e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ssar <ssar@nate.com>
+Date:   Thu Sep 1 09:36:23 2022 +0900
+
+    시퀀스 추가
+
+[33mcommit fa158b2f277f1cf7e206803435c5aa4c6c0b0ec7[m
+Author: ssar <ssar@nate.com>
+Date:   Thu Sep 1 09:35:44 2022 +0900
+
+    sysdate로 변경
+
+[33mcommit 7bf51237662e905ca2099202a64c9ab63b3adcc2[m
+Author: ssar <ssar@nate.com>
+Date:   Thu Sep 1 09:32:28 2022 +0900
+
+    의존성 변경
+
+[33mcommit dfabd0ea3dd1f781b8838229e8e04ecc0b4968d0[m
+Author: ssar <ssar@nate.com>
+Date:   Wed Aug 31 14:31:19 2022 +0900
+
+    mybatis 세팅완료
