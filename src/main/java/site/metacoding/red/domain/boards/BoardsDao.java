@@ -1,16 +1,14 @@
 package site.metacoding.red.domain.boards;
 
 import java.util.List;
-
-import site.metacoding.red.domain.users.Users;
 import site.metacoding.red.web.dto.request.boards.WriteDto;
 
 public interface BoardsDao {
 	public void insert(WriteDto writeDto);	// boards에 insert는 글쓰기
-	public Users findById(Integer id);
-	public List<Boards> findAll();
 	public void update(Boards boards);
 	public void delete(Integer id);
+	public List<Boards> findAll();
+	public Boards findById(Integer id);
 }
 
 // 하나씩 매개변수 수정하고 dto만들고 차례대로 작성

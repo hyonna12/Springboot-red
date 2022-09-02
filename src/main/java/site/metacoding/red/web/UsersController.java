@@ -54,13 +54,13 @@ public class UsersController {
 	@PutMapping("/users/{id}")
 	public RespDto<?> update(@PathVariable Integer id, UpdateDto updateDto){
 		// 1번 : id로 select하자. (영속화)
-		Users usersPS = usersDao.findById(id);
+		Users users = usersDao.findById(id);
 		
 		// 2번 : 변경
-		usersPS.전체수정(updateDto);
+		users.전체수정(updateDto);
 		
 		// 3번 : 영속화된 오브젝트로 update하기
-		usersDao.update(usersPS);	
+		usersDao.update(users);	
 		return new RespDto<>(1, "회원수정완료", null);
 	}
 	
