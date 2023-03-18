@@ -1,4 +1,4 @@
-# MyBatis DB연결 세팅
+# MyBatis DB연결 세팅 및 user,board crud
 
 ### 설정방법
 - MyBatisConfig 파일 필요
